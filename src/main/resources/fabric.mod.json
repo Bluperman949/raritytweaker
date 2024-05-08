@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "raritytweaker",
+  "version": "${version}",
+  "name": "Rarity Tweaker",
+  "description": "Make items shiny again!",
+  "authors": [
+    "Bluperman949"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "bluper.raritytweaker.client.RarityTweakerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  },
+  "mixins": [
+    "raritytweaker.client.mixins.json"
+  ]
+}
